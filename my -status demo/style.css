@@ -46,6 +46,11 @@
     backdrop-filter: blur(2rem);
     display: flex;
   }
+  .user img{
+    border-radius: 80%;
+    width: 30%;
+
+  }
   .circle1,
   .circle2 {
     background: white;
@@ -87,6 +92,10 @@
     margin: 2rem 0rem;
     padding: 1rem 5rem;
     align-items: center;
+  }
+
+  .link img{
+        width: 5%;    
   }
   .link h2 {
     padding: 0rem 2rem;
