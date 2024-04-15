@@ -48,7 +48,7 @@ section nav{
 section nav .logo{
     font-size: 35px;
     color:#D4AC0D;
-    margin: 5px 0;
+    margin: 10px 0;
     cursor: pointer;
     position: relative;
     left: -4%;
@@ -68,6 +68,8 @@ section nav ul {
 section nav ul li{
     display: inline-block;
     margin: 5px 15px;
+    font-size: 20px;
+    
 }
 
 section nav ul li a{
@@ -83,7 +85,7 @@ section nav ul li a:hover{
 section nav .icons i{
     margin: 0 4px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 30px;
     transition: 0.3s;
 }
 section nav .icons i:hover{
@@ -99,8 +101,8 @@ section .main .main_content .main_text h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
-    top: 55px;
-    left: 5%;
+    top: 400px;
+    left: 15%;
 }
 
 section .main .main_content .main_text h1 span{
@@ -115,16 +117,17 @@ section .main .main_content .main_text p{
     text-align: justify;
     line-height: 21px;
     position: relative;
-    top:85px;
-    left: 5%;
+    top:450px;
+    left: 18%;
 }
 
 section .main .main_content .main_image img{
-
     width: 650px;
     position: relative;
-    left: 20px;
-    top: 75px;
+    /* align-items: center; */
+    left: 1500px;
+    /* top: 30px; */
+    bottom: 150px;
 }
 
 section .main .social_icon {
@@ -148,7 +151,8 @@ section .main .social_icon i:hover{
 
 section .main .button{
     position: absolute;
-    left: 6%;
+    left: 20%;
+    bottom: 350px;
     padding: 10px 20px;
     border-radius: 30px;
     background: linear-gradient(to top, #D4AC0D  , #9C640C);
@@ -172,7 +176,7 @@ section .main .button:hover i{
 
 
 .products h1{
-    margin:35px 0;
+    margin:50px 0;
     font-size: 60px;
     display: flex;
     align-items: center;
@@ -282,7 +286,7 @@ section .main .button:hover i{
 
 .about h1{
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,7 +315,7 @@ section .main .button:hover i{
 }
 .about .about_main .about_image{
     display: flex;
-    margin-top: 50px;
+    margin-top: 500px;
 }
 .about .about_main .about_image .about_small_image{
     display: flex;
@@ -322,7 +326,7 @@ section .main .button:hover i{
 
 .about .about_main .about_image .about_small_image img{
     height: 92px;
-    margin: 5px 0;
+    margin: 10px 0;
     cursor: pointer;
     background: linear-gradient(to top, #D4AC0D  , #9C640C);
     display: block;
@@ -339,7 +343,7 @@ section .main .button:hover i{
 }
 
 .about .about_main .image_contaner{
-    padding: 10px;
+    padding: 100px;
     display: flex;
 
 }
@@ -354,7 +358,7 @@ section .main .button:hover i{
 }
 
 .about .about_main .about_text{
-    margin-top:45px;
+    margin-top:1px;
 
 }
 
@@ -362,8 +366,8 @@ section .main .button:hover i{
     background: linear-gradient(to left, #D4AC0D ,#9C640C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    line-height: 22px;
-    width: 600px;
+    line-height: 40px;
+    width: 900px;
     text-align: justify;
     padding: 25px 30px;
     border: 2px solid #D4AC0D;
@@ -376,8 +380,9 @@ section .main .button:hover i{
     color: black;
     background: none;
     position: relative;
-    top: 10%;
-    left: 50%;
+    /* top: 1%; */
+    bottom: 93%;
+    left: 40%;
     transform: translate(-50% , -50%);
     padding: 10px 25px;
     border: 2px solid #D4AC0D;
@@ -410,9 +415,8 @@ section .main .button:hover i{
     text-transform: uppercase;
 }
 
-
 .review h1 span{
-    background: linear-gradient(to left, #D4AC0D , #9C640C);
+    background: linear-gradient(to left, #D4AC0D ,#9C640C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 15px;    
@@ -428,23 +432,22 @@ section .main .button:hover i{
     margin: 0 auto;
 }
 
-.review .profile .profile_image {
+.review .profile .profile_image{
     width: 60px;
     height: 60px;
-    border-radius:50%;
+    border-radius: 50%;
     overflow: hidden;
     margin: 5px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     cursor: pointer;
-    transition: 0,.3s;
-
+    transition: 0.3s;
 }
 
 .review .profile .profile_image:hover{
     transform: scale(1.2);
 }
 
-.review .profile .profile_image img {
+.review .profile_image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -454,7 +457,6 @@ section .main .button:hover i{
 .review .profile{
     display: flex;
     align-items: center;
-
 }
 
 .review .review_box .review_card{
@@ -462,19 +464,19 @@ section .main .button:hover i{
     background: #f3f1f1;
     padding: 20px 25px;
     border-radius: 5px;
-    margin :15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
+
 .review .review_box .review_card .card_top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-.review .review_box .review_card .card_top .profile .name{
-    margin-left:20px;
-    line-height: 22px;
 
+.review .review_box .review_card .card_top .profile .name{
+    margin-left: 20px;
+    line-height: 22px;
 }
 
 .review .review_box .review_card .card_top .profile .name strong{
